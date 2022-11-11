@@ -1,0 +1,6 @@
+.mesher{
+    background-color:hsla(130,4%,41%,1);
+background-image:
+radial-gradient(at 40% 91%, hsla(214,60%,36%,1) 0px, transparent 50%),
+radial-gradient(at 32% 8%, rgba(55, 68, 144, 0.99) 0px, transparent 50%);
+}
