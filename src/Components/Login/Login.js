@@ -29,7 +29,7 @@ const Login = () => {
 
 						<form onSubmit={handleSubmit(onSubmit)}>
 							<input
-								{...register("firstName", { required: true, maxLength: 50 })}
+								{...register("firstName", { required: true, maxLength: 100 })}
 							/>
 							<input {...register("lastName", { pattern: /^[A-Za-z]+$/i })} />
 							<input type="number" {...register("age", { min: 18, max: 99 })} />
